@@ -4,8 +4,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 def login(driver):
-    username = "mr_dark_web"  # <username here>
-    password = "gopass"  # <password here>
+    username = ""  # <username here>
+    password = ""  # <password here>
 
     # Load page
     driver.get("https://www.instagram.com/accounts/login/")
